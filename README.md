@@ -20,10 +20,10 @@ I hold a **B.Sc. in Information Technology** with a focus on cybersecurity and w
 
 Most of what I publish here is **original tooling I wrote myself** — small, dependency-light, readable programs that solve one security problem well. Offensive recon tools, blue-team log triage, vulnerability management, and secure-coding references. Every tool is documented, every finding is reproducible.
 
-- 🔭 Currently building **[SecureScope](https://github.com/TBPH-ABD/SecureScope)** — an external attack surface monitoring platform for small and mid-sized businesses.
-- 🛡️ Independent **bug bounty hunter** — vulnerability discovery and responsible disclosure on HackerOne, Bugcrowd and Intigriti.
-- 📚 Preparing for **OSCP**, **CEH** and **CompTIA Security+**.
-- ✍️ I care about the part most people skip: the report. Clear impact, clean reproduction steps, honest severity.
+-  Currently building **[SecureScope](https://github.com/TBPH-ABD/SecureScope)** — an external attack surface monitoring platform for small and mid-sized businesses.
+-  Independent **bug bounty hunter** — vulnerability discovery and responsible disclosure on HackerOne, Bugcrowd and Intigriti.
+-  Preparing for **OSCP**, **CEH** and **CompTIA Security+**.
+-  I care about the part most people skip: the report. Clear impact, clean reproduction steps, honest severity.
 
 ---
 
@@ -58,7 +58,7 @@ Detection engineering, log analysis, file integrity monitoring, and building app
 
 ## Featured Work
 
-### 🎯 Flagship
+###  Flagship
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -74,7 +74,7 @@ Detection engineering, log analysis, file integrity monitoring, and building app
 | **[apitest](https://github.com/TBPH-ABD/apitest)** | REST API security testing — broken authentication, CORS misconfiguration, verbose errors, rate limiting, data exposure. |
 | **[cred-audit](https://github.com/TBPH-ABD/cred-audit)** | Credential policy auditing based on real offline-cracking resistance, with privacy-preserving breach corpus checks. |
 
-### 🛡️ Defensive & Monitoring
+###  Defensive & Monitoring
 
 | Project | What it does |
 |---|---|
@@ -83,7 +83,7 @@ Detection engineering, log analysis, file integrity monitoring, and building app
 | **[phishguard](https://github.com/TBPH-ABD/phishguard)** | Phishing URL analysis — typosquatting, homoglyph and punycode deception, credential lures, redirect-chain tracing. |
 | **[netwatch](https://github.com/TBPH-ABD/netwatch)** | Network service monitoring with a live dashboard, SQLite history and JSON API — built on the Python standard library alone. |
 
-### 🧰 Vulnerability Management & Secure Development
+###  Vulnerability Management & Secure Development
 
 | Project | What it does |
 |---|---|
