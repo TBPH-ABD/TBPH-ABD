@@ -80,6 +80,8 @@ analysis, and building applications that hold up under review.
 |---|---|
 | **[jwt-inspector](https://github.com/TBPH-ABD/jwt-inspector)** | Decode a JWT and audit it for `alg:none`, embedded/remote keys, `kid` injection, expiry hygiene, and HMAC verification. |
 | **[secret-sweeper](https://github.com/TBPH-ABD/secret-sweeper)** | Find hard-coded secrets in a code tree — vendor key formats plus a Shannon-entropy backstop, with masked output. |
+| **[headers-scorer](https://github.com/TBPH-ABD/headers-scorer)** | Grade a site's HTTP security headers (HSTS, CSP, X-Frame-Options, Referrer-Policy, …) with a letter grade A–F. |
+| **[tls-auditor](https://github.com/TBPH-ABD/tls-auditor)** | Inspect a server's TLS certificate and protocol — expiry, hostname match, obsolete TLS 1.0/1.1. |
 | **[web-recon-scanner](https://github.com/TBPH-ABD/web-recon-scanner)** | Passive web app reconnaissance — security headers, TLS posture, cookie attributes, form surface, information disclosure. |
 | **[apitest](https://github.com/TBPH-ABD/apitest)** | REST API security testing — broken authentication, CORS misconfiguration, verbose errors, rate limiting, data exposure. |
 | **[recon-mapper](https://github.com/TBPH-ABD/recon-mapper)** | Authorized asset and service discovery — host discovery, concurrent TCP port scanning, banner grabbing, JSON reporting. |
@@ -91,6 +93,7 @@ analysis, and building applications that hold up under review.
 | **[dep-audit](https://github.com/TBPH-ABD/dep-audit)** | Check pinned Python and npm dependencies against the OSV vulnerability database — advisory id, severity, and fixed version. |
 | **[pysast](https://github.com/TBPH-ABD/pysast)** | AST-based static analysis for insecure Python — `eval`/`exec`, `shell=True`, unsafe pickle/yaml, `verify=False`, weak hashing. |
 | **[cred-audit](https://github.com/TBPH-ABD/cred-audit)** | Credential policy auditing based on real offline-cracking resistance, with privacy-preserving breach-corpus checks. |
+| **[passgen-audit](https://github.com/TBPH-ABD/passgen-audit)** | Generate strong passwords/passphrases with the `secrets` CSPRNG and audit password strength offline — entropy + weak-pattern detection. |
 
 ###  Defensive & Monitoring
 
@@ -100,6 +103,7 @@ analysis, and building applications that hold up under review.
 | **[integrity-guard](https://github.com/TBPH-ABD/integrity-guard)** | File integrity monitoring — cryptographic baselining with detection of added, modified, deleted and re-permissioned files. |
 | **[phishguard](https://github.com/TBPH-ABD/phishguard)** | Phishing URL analysis — typosquatting, homoglyph and punycode deception, credential lures, redirect-chain tracing. |
 | **[vulnfeed](https://github.com/TBPH-ABD/vulnfeed)** | CVE lookup and triage CLI backed by the NIST NVD — severity filtering, network-exploitability flags, local caching. |
+| **[logwatch](https://github.com/TBPH-ABD/logwatch)** | Summarise and follow application logs — group similar lines, count by severity, and alert on error rate in follow mode. |
 
 ###  IT Support & Full-Stack
 
